@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Property</title>
+
+    <!-- css link  -->
+    <link rel="stylesheet" href="./property.css" />
+
+    <!-- satoshi font cdn link  -->
+    <link
+      href="https://fonts.cdnfonts.com/css/satoshi?styles=135009,135005,135007,135002,135000"
+      rel="stylesheet"
+    />
+
+    <!-- font awsm cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- header start -->
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <img src="./assets/logo/logo-black.png" alt="logo-img" />
+        </div>
+        <ul>
+          <li>
+            <a href="./index.html">Home</a>
+          </li>
+          <li><a href="/about-us.html">About us</a></li>
+          <li>
+            <a href="./property.html">
+              <span class="text-color">Property</span></a
+            >
+          </li>
+          <li><a href="#">Agent</a></li>
+          <li><a href="./blog.html">Blog</a></li>
+          <li><a href=".faq.html">FAQ's</a></li>
+        </ul>
+        <a href="./contact-us.html">
+          <button class="contact-btn">Contact Us</button></a
+        >
+        <div class="menu-threeDot">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+    <!-- header end -->
+
+    <!-- explore  property list section start-->
+    <section class="hero-container">
+      <h3>Explore Our Property Listings</h3>
+      <p>
+        Discover our curated selection of properties that cater to various
+        lifestyles and budgets. Whether you’re searching for a modern city
+        apartment, a cozy suburban home, or an investment property, our listings
+        have something for everyone.
+      </p>
+    </section>
+
+    <div class="search-box">
+      <div class="search-container">
+        <i class="fas fa-search"></i>
+        <input type="text" placeholder="Search Your Dream Property" />
+      </div>
+      <div class="filter">
+        <i class="fa-solid fa-filter"></i>
+      </div>
+    </div>
+
+    <main class="main-content">
+      <div class="main-wrapper">
+        <div class="left-side-main">
+          <div class="btn-wrapper">
+            <button class="btn sell">Sell</button>
+            <button class="btn rent">Rent</button>
+          </div>
+          <div class="category-section">
+            <p class="category-title">Category</p>
+            <div class="category-option">
+              <input type="checkbox" />
+              <span>House</span>
+            </div>
+            <div class="category-option">
+              <input type="checkbox" />
+              <span>Apartment</span>
+            </div>
+            <div class="category-option">
+              <input type="checkbox" />
+              <span>Villa</span>
+            </div>
+            <p class="category-title">Location</p>
+            <div class="category-option">
+              <input type="checkbox" />
+              <span>London</span>
+            </div>
+            <div class="category-option">
+              <input type="checkbox" />
+              <span>Manchester</span>
+            </div>
+            <div class="category-option">
+              <input type="checkbox" />
+              <span>Southampton</span>
+            </div>
+            <div class="category-option">
+              <input type="checkbox" />
+              <span>Chelmsford</span>
+            </div>
+            <div class="category-option">
+              <input type="checkbox" />
+              <span>Liverpool</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="right-side-main">
+          <div class="property-container">
+            <div class="property-list">
+              <a href="#">
+                <img
+                  src="./assets/image/Property Image (3).png"
+                  alt="property-img"
+                />
+              </a>
+              <div class="house-position">
+                <i class="fa-solid fa-house"></i>House
+              </div>
+              <div class="forsale-position">For Sale</div>
+              <div class="property-name">
+                <div class="name-address">
+                  <h3>Asri Permata</h3>
+
+                  <p>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span class="font-small">100 High St, London, W1D 1NR</span>
+                  </p>
+                </div>
+                <div class="property-price">&dollar; 1,200</div>
+              </div>
+              <div class="property-facilities">
+                <p><i class="fa-solid fa-toilet"></i> 2 Bathroom</p>
+                <p><i class="fa-solid fa-bed"></i> 3 Bedroom</p>
+                <p><i class="fa-regular fa-square"></i> 1,300 sq ft</p>
+              </div>
+            </div>
+            <div class="property-list">
+              <a href="#">
+                <img
+                  src="./assets/image/Property Image (4).png"
+                  alt="property-img"
+                />
+              </a>
+              <div class="house-position">
+                <i class="fa-solid fa-building"></i>Apartment
+              </div>
+              <div class="forsale-position">For Rent</div>
+              <div class="property-name">
+                <div class="name-address">
+                  <h3>Riverfront View</h3>
+
+                  <p>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span class="font-small">
+                      32 Market St, Manchester M1 1PW</span
+                    >
+                  </p>
+                </div>
+                <div class="property-price">
+                  &dollar; 1,200
+                  <p class="font-small">Per Month</p>
+                </div>
+              </div>
+              <div class="property-facilities">
+                <p><i class="fa-solid fa-toilet"></i> 2 Bathroom</p>
+                <p><i class="fa-solid fa-bed"></i> 3 Bedroom</p>
+                <p><i class="fa-regular fa-square"></i> 1,600 sq ft</p>
+              </div>
+            </div>
+            <div class="property-list">
+              <a href="#">
+                <img
+                  src="./assets/image/Property Image (5).png"
+                  alt="property-img"
+                />
+              </a>
+              <div class="house-position">
+                <i class="fa-solid fa-house"></i>House
+              </div>
+              <div class="forsale-position">For Rent</div>
+              <div class="property-name">
+                <div class="name-address">
+                  <h3>Cozy Cottage</h3>
+
+                  <p>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span class="font-small">
+                      6 Southern St, Manchester M3 4NJ</span
+                    >
+                  </p>
+                </div>
+                <div class="property-price">
+                  &dollar; 1,200
+                  <p class="font-small">Per Month</p>
+                </div>
+              </div>
+              <div class="property-facilities">
+                <p><i class="fa-solid fa-toilet"></i> 1 Bathroom</p>
+                <p><i class="fa-solid fa-bed"></i> 1 Bedroom</p>
+                <p><i class="fa-regular fa-square"></i> 900 sq ft</p>
+              </div>
+            </div>
+            <div class="property-list">
+              <a href="#">
+                <img
+                  src="./assets/image/Property Image (6).png"
+                  alt="property-img"
+                />
+              </a>
+              <div class="house-position">
+                <i class="fa-solid fa-warehouse"></i>Villa
+              </div>
+              <div class="forsale-position">For Sale</div>
+              <div class="property-name">
+                <div class="name-address">
+                  <h3>Modern Loft</h3>
+
+                  <p>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span class="font-small"
+                      >20 St Anns Sq, Manchester M2 7HG</span
+                    >
+                  </p>
+                </div>
+                <div class="property-price">&dollar; 1,200</div>
+              </div>
+              <div class="property-facilities">
+                <p><i class="fa-solid fa-toilet"></i> 2 Bathroom</p>
+                <p><i class="fa-solid fa-bed"></i> 3 Bedroom</p>
+                <p><i class="fa-regular fa-square"></i> 1,500 sq ft</p>
+              </div>
+            </div>
+            <div class="property-list">
+              <a href="#">
+                <img
+                  src="./assets/image/Property Image (7).png"
+                  alt="property-img"
+                />
+              </a>
+              <div class="house-position">
+                <i class="fa-solid fa-house"></i>House
+              </div>
+              <div class="forsale-position">For Rent</div>
+              <div class="property-name">
+                <div class="name-address">
+                  <h3>Beachfront Retreat</h3>
+
+                  <p>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span class="font-small"
+                      >44-46 John Dalton St, Manchester</span
+                    >
+                  </p>
+                </div>
+                <div class="property-price">
+                  &dollar; 1,200
+                  <p class="font-small">Per Month</p>
+                </div>
+              </div>
+              <div class="property-facilities">
+                <p><i class="fa-solid fa-toilet"></i> 2 Bathroom</p>
+                <p><i class="fa-solid fa-bed"></i> 4 Bedroom</p>
+                <p><i class="fa-regular fa-square"></i> 2,200 sq ft</p>
+              </div>
+            </div>
+            <div class="property-list">
+              <a href="#">
+                <img
+                  src="./assets/image/Property Image (8).png"
+                  alt="property-img"
+                />
+              </a>
+              <div class="house-position">
+                <i class="fa-solid fa-building"></i>Apartment
+              </div>
+              <div class="forsale-position">For Sale</div>
+              <div class="property-name">
+                <div class="name-address">
+                  <h3>Downtown Condo</h3>
+
+                  <p>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span class="font-small"
+                      >109 Corporation St, Manchester
+                    </span>
+                  </p>
+                </div>
+                <div class="property-price">&dollar; 1,200</div>
+              </div>
+              <div class="property-facilities">
+                <p><i class="fa-solid fa-toilet"></i> 1 Bathroom</p>
+                <p><i class="fa-solid fa-bed"></i> 2 Bedroom</p>
+                <p><i class="fa-regular fa-square"></i> 400 sq ft</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="view-more-btn">View More</button>
+    </main>
+
+    <!-- contact section start  -->
+    <section class="contact-section">
+      <div class="contact-bg-img">
+        <div class="flex-contact">
+          <div class="contact-leftside">
+            <h2>Need a help to find your comfort home?</h2>
+            <p>
+              Don’t hesitate to get in touch with us and begin your journey to
+              owning your dream home. We’re here to guide you every step of the
+              way!
+            </p>
+          </div>
+          <div class="contact-rightside">
+            <div class="contact-form">
+              <form action="#">
+                <label for="name">Full Name</label>
+                <label for="email">Email*</label>
+
+                <textarea placeholder="Leave us a message..."></textarea>
+
+                <button type="submit">Send</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact section start  -->
+
+    <!-- footer start  -->
+    <footer class="footer-wrapper">
+      <!-- footer top part start  -->
+      <div class="footer-top-part">
+        <div class="left-side-footer">
+          <h6>
+            We are an experienced real <br />
+            estate agency based in United Kingdom
+          </h6>
+          <div class="contact-info">
+            <div class="info one">
+              <ul>
+                <li><span class="info-text-style">Generel Enquiries</span></li>
+                <li><a href="#">info@example.com</a></li>
+              </ul>
+            </div>
+            <div class="info two">
+              <ul>
+                <li><span class="info-text-style">Phone</span></li>
+                <li><a href="#">+1 555-0123-456</a></li>
+              </ul>
+            </div>
+            <div class="info three">
+              <ul>
+                <li><span class="info-text-style">Office</span></li>
+                <li>
+                  <a href="#">789 Elm Street, Springfield, Illionis 62704</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="right-side-footer">
+          <!-- <div class="navigations-follow-us"> -->
+          <div class="nav-list-wrapper">
+            <span class="style-li">Navigation</span>
+            <div class="nav-list">
+              <div class="list-iteam">
+                <ul>
+                  <!-- <li class="style-li">Navigation</li> -->
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Listing Product</a></li>
+                </ul>
+              </div>
+              <div class="list-iteam">
+                <ul>
+                  <li><a href="#">FAQ's</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Agent</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="follow-us">
+            <span class="style-li">Follow Us</span>
+            <ul>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Behance</a></li>
+              <li><a href="#">Dribbble</a></li>
+            </ul>
+          </div>
+          <!-- </div> -->
+        </div>
+      </div>
+      <!-- footer top part end  -->
+
+      <!-- footer bottom last part start  -->
+      <div class="footer-bottom-part">
+        <img src="./assets/logo/Logo Container.png" alt="logo" />
+        <p class="style-rights">© 2023-2024, All Rights Reserved</p>
+        <p>
+          <a href=""> Back to top <i class="fa-solid fa-arrow-up"></i></a>
+        </p>
+      </div>
+      <!-- footer bottom last part end  -->
+    </footer>
+    <!-- footer end  -->
+  </body>
+</html>
