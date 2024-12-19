@@ -413,6 +413,14 @@ header {
   margin-bottom: 2rem;
   line-height: 2.8rem;
 }
+.contact-bg-img-container {
+  width: 100%;
+  height: 640px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 2rem;
+  margin-top: 10rem;
+}
 .contact-bg-img {
   background-image: url("./assets/image/contact\ form\ bg\ img.jpg");
   background-size: cover;
@@ -421,9 +429,11 @@ header {
   width: 100%;
   height: 640px;
   border-radius: 2rem;
-  margin-top: 10rem;
-
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
+  filter: brightness(60%);
+  z-index: -1;
 }
 
 .contact-form {
@@ -609,7 +619,7 @@ a {
 /* footer ends */
 
 /* media quirey for tablet devices, start*/
-@media (max-width: 769px) {
+@media only screen and (max-width: 1199.98px) {
   /* header start  */
   header {
     padding: 2rem 3.5rem;
@@ -617,13 +627,19 @@ a {
   .navbar {
     color: #1b1b1b;
   }
-  /* .navbar .logo img {
-        width: 10.8rem;
-        height: 3.2rem;
-      } */
+  .navbar ul {
+    gap: 0;
+  }
+  .navbar ul a {
+    padding: 0.4rem 0.8rem;
+  }
+  .navbar .logo img {
+    width: 7rem;
+    height: 2.5rem;
+  }
   .contact-btn {
     padding: 0.6rem 1.2rem;
-    font-size: var(--font-body-small);
+    font-size: var(--font-body-xsmall);
     border-radius: 1.2rem;
   }
   /* header end */
@@ -774,7 +790,7 @@ a {
 /* footer end  */
 
 /* media quirey for mobile devices, start*/
-@media (max-width: 426px) {
+@media only screen and (max-width: 767.98px) {
   /* header start  */
   header {
     padding: 2rem 2rem;
@@ -790,6 +806,10 @@ a {
     color: #1b1b1b;
   }
   /* header end  */
+  .navbar .logo img {
+    width: 10.8rem;
+    height: 3.2rem;
+  }
 
   /* hero container start */
   .hero-container {
@@ -833,6 +853,12 @@ a {
     padding: 0 2rem;
   }
 
+  /* property listing section start  */
+  .property-listing {
+    padding: 0 2rem;
+    margin-bottom: 5rem;
+  }
+
   .property-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -862,12 +888,11 @@ a {
     padding: 0 1rem;
   }
   .flex-contact {
-    display: block;
-    left: 1rem;
+    flex-direction: column;
+    gap: 5rem;
   }
   .contact-leftside {
-    width: 100%;
-    margin-bottom: 5rem;
+    width: 80%;
   }
 
   .contact-leftside h2 {
