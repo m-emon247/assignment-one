@@ -86,7 +86,7 @@ header {
   list-style: none;
   display: flex;
   align-items: center;
-  /* gap: 1rem; */
+  gap: 0.6rem;
 }
 .text-color {
   font-weight: 500;
@@ -120,6 +120,7 @@ header {
   padding: 1rem 1.8rem;
   font-size: var(--font-body-medium);
   border-radius: 1.2rem;
+  cursor: pointer;
   transition: background 0.3s;
   transition: box-shadow 0.3s;
 }
@@ -745,6 +746,7 @@ header {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #70707b;
+  gap: 2rem;
 }
 
 .left-side-footer {
@@ -758,7 +760,7 @@ header {
 }
 .contact-info {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   gap: 2.4rem;
 }
 .info {
@@ -878,7 +880,7 @@ a {
     padding: 0.4rem 0.8rem;
   }
   .navbar .logo img {
-    width: 7rem;
+    width: 8rem;
     height: 2.5rem;
   }
   .contact-btn {
@@ -945,7 +947,7 @@ a {
     width: 100%;
   }
   .rightside-our-commitment p {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
   .short-details {
     display: flex;
@@ -1006,7 +1008,7 @@ a {
     /* text-wrap: nowrap; */
   }
   .property-listing-head p {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
   .property-container .last-one {
     display: none;

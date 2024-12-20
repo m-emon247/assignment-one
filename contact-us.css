@@ -62,7 +62,18 @@ header {
   list-style: none;
   display: flex;
   align-items: center;
+  gap: 0.6rem;
 }
+.navbar ul li a {
+  transition: background 0.3s;
+  transition: font-size 0.5s ease;
+}
+.navbar ul li :hover {
+  transform: translateY(-1px);
+  color: #541818;
+  font-size: var(--font-body-xlarge);
+}
+
 .text-color {
   font-weight: 500;
   color: #1b1b1b;
@@ -91,8 +102,10 @@ header {
   color: #fcfcfc;
   transition: background 0.3s;
   transition: box-shadow 0.3s;
+  cursor: pointer;
 }
 .contact-btn:hover {
+  background: #541818;
   transform: translateY(-1px);
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
 }
@@ -133,7 +146,7 @@ main {
 /* hero end */
 
 /* main start  */
-.contact-info {
+.contact-details {
   margin-bottom: 8rem;
 }
 .form-group {
@@ -165,7 +178,7 @@ textarea {
   align-items: center;
 }
 .privacy-policy input {
-  width: 10%;
+  width: 5%;
 }
 
 .send-msg button {
@@ -187,22 +200,22 @@ textarea {
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
 }
 
-.contact-info {
+.contact-details {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 2rem;
 }
-.contact-info {
+.contact-details {
   font-size: 1.8rem;
 }
-.contact-info i {
+.contact-details i {
   color: #70707b;
   margin-bottom: 1rem;
 }
-.contact-info h4 {
+.contact-details h4 {
   margin-bottom: 1rem;
 }
-.contact-info p {
+.contact-details p {
   margin-bottom: 1rem;
 }
 .contact {
@@ -223,6 +236,7 @@ textarea {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #70707b;
+  gap: 2rem;
 }
 
 .left-side-footer {
@@ -236,7 +250,7 @@ textarea {
 }
 .contact-info {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   gap: 2.4rem;
 }
 .info {
@@ -356,7 +370,7 @@ a {
     padding: 0.4rem 0.8rem;
   }
   .navbar .logo img {
-    width: 7rem;
+    width: 8rem;
     height: 2.5rem;
   }
   .contact-btn {
@@ -377,7 +391,9 @@ a {
   .contact-info {
     width: 100%;
   }
-
+  .contact-details {
+    font-size: 1.8rem;
+  }
   /* main end */
 
   /* footer start  */
@@ -444,7 +460,9 @@ a {
   main {
     padding: 0 2rem;
   }
-
+  .contact-details {
+    font-size: 1.6rem;
+  }
   /* footer start  */
   .footer-wrapper {
     padding: 5.6rem 2rem;

@@ -62,6 +62,7 @@ header {
   list-style: none;
   display: flex;
   align-items: center;
+  gap: 0.6rem;
 }
 .navbar ul li a {
   transition: background 0.3s;
@@ -102,10 +103,12 @@ header {
   transition: box-shadow 0.3s;
   background-color: #1b1b1b;
   color: #fcfcfc;
+  cursor: pointer;
 }
 .contact-btn:hover {
   transform: translateY(-1px);
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+  background: #541818;
 }
 /* header ends */
 
@@ -211,6 +214,7 @@ header {
 /* bank section start  */
 .bank-section {
   padding: 0 8rem;
+
   margin-bottom: 8rem;
 }
 .bank-head {
@@ -225,7 +229,7 @@ header {
 }
 .bank-logo-container {
   display: flex;
-  gap: 1.6rem;
+  gap: 2rem;
   justify-content: center;
 }
 .bank-logo-img {
@@ -396,6 +400,7 @@ header {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #70707b;
+  gap: 2rem;
 }
 
 .left-side-footer {
@@ -409,7 +414,7 @@ header {
 }
 .contact-info {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   gap: 2.4rem;
 }
 .info {
@@ -530,7 +535,7 @@ a {
     padding: 0.4rem 0.8rem;
   }
   .navbar .logo img {
-    width: 7rem;
+    width: 8rem;
     height: 2.5rem;
   }
   .contact-btn {
@@ -598,9 +603,6 @@ a {
   .pionner-text-container {
     width: 100%;
   }
-  .pionner-img-container {
-    width: 100%;
-  }
 
   .pionner-text-container h3 {
     font-size: 3.6rem;
@@ -609,6 +611,9 @@ a {
   .pionner-text-container p {
     font-size: 1.8rem;
     line-height: 2.4rem;
+  }
+  .pionner-img-container {
+    width: 100%;
   }
   .pionner-img-container img {
     width: 100%;
@@ -812,8 +817,8 @@ a {
     line-height: 2.4rem;
   }
   .pionner-img-container img {
-    height: 335px;
-    width: 335px;
+    height: 400px;
+    width: 100%;
   }
   /* pioneer excellence section end */
 
